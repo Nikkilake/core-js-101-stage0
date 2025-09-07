@@ -64,7 +64,7 @@ function getStringFromTemplate(firstName, lastName) {
  *   'Hello, Chuck Norris!' => 'Chuck Norris'
  */
 function extractNameFromTemplate(value) {
-  return value.split(",")[1];
+  return value.split(',')[1];
 }
 
 /**
@@ -198,9 +198,7 @@ function extractEmails(str) {
  *             '└──────────┘\n'
  *
  */
-function getRectangleString(width, height) {
-  
-}
+function getRectangleString(/* width, height */) {}
 
 /**
  * Encode specified string with ROT13 cipher
